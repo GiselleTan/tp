@@ -13,7 +13,6 @@ public class RemarkCommand extends Command {
 
     public static final String COMMAND_WORD = "remark";
 
-    /* 
     public static final String MESSAGE_USAGE = COMMAND_WORD + ": Edits the remark of the person identified "
     + "by the index number used in the last person listing. "
     + "Existing remark will be overwritten by the input.\n"
@@ -27,11 +26,5 @@ public class RemarkCommand extends Command {
     @Override
     public CommandResult execute(Model model) throws CommandException {
         throw new CommandException(MESSAGE_NOT_IMPLEMENTED_YET);
-    }
-    */
-
-    @Override
-    public CommandResult execute(Model model) {
-        return new CommandResult("Hello from remark");
     }
 }
